@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Montserrat:wght@600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600px;
+}
+
+/* Navbar & Offcanvas */
+.sidebar-nav {
+    width: 250px !important;
+}
+
+.nim {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.dropdown-menu {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.profile-menu {
+    font-size: 12px;
+}
+
+
+@media (min-width: 992px) {
+    .sidebar-nav {
+        transform: none;
+        width: 400px;
+        visibility: visible !important;
+    }
+
+    .sidebar-nav {
+        transform: none !important;
+        visibility: visible !important;
+    }
+
+    .sidebar-nav-close{
+        visibility: hidden;
+    }
+
+    .navbar {
+        margin-left: 250px;
+    }
+
+    main {
+        margin-left: 260px;
+        margin-right: 10px;
+    }
+}
+
+.sidebar-menu {
+    height: 80%;
+}
+
+.sidebar-logout {
+    height: 20%;
+}
+
+.sidebar-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-menu a {
+    color: #ABABAB;
+    text-decoration: none;
+}
+
+.sidebar-menu a:visited {
+    color: black;
+}
+
+.sidebar-logout a {
+    color: #A11A1A;
+    font-weight: bold !important;
+    text-decoration: none;
+}
+
+/* Main */
